@@ -47,14 +47,14 @@ export default function Main() {
     <div className="conainer">
       <div className="main">
         <Result
-          user1GameItem={"Your code here"}
-          user2GameItem={"Your code here"}
-          result={"Your code here"}
+          user1GameItem={userGameItem}//{"Your code here"}
+          user2GameItem={computerGameItem}//{"Your code here"}
+          result={result}//{"Your code here"}
         />
         <Display />
         <Choices
-          gameItems={"Your code here"}
-          handleGameItemChange={"Your code here"}
+          gameItems={gameItems}//{"Your code here"}
+          handleGameItemChange={handleGameItemChange}//{"Your code here"}
         />
       </div>
     </div>
